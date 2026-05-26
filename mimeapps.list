@@ -1,0 +1,18 @@
+[Default Applications]
+text/html=brave-browser.desktop
+x-scheme-handler/http=brave-browser.desktop
+x-scheme-handler/https=brave-browser.desktop
+x-scheme-handler/about=brave-browser.desktop
+x-scheme-handler/unknown=brave-browser.desktop
+font/ttf=brave-browser.desktop
+
+image/png=org.gnome.Loupe.desktop
+image/jpeg=org.gnome.Loupe.desktop
+image/jpg=org.gnome.Loupe.desktop
+image/gif=org.gnome.Loupe.desktop
+image/webp=org.gnome.Loupe.desktop
+image/svg+xml=org.gnome.Loupe.desktop
+image/bmp=org.gnome.Loupe.desktop
+
+[Added Associations]
+font/ttf=brave-browser.desktop;

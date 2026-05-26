@@ -1,0 +1,68 @@
+*{
+    background-image: none; 
+    box-shadow: none; 
+}
+
+window {
+    font-family: "JetBrainsMono NF", monospace;
+    font-size: 14pt;
+    color: #cdd6f4; 
+    background-color: rgba(17, 17, 27, .88);
+}
+
+button {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    border: none;
+    /*color: #ced7f4;*/
+    text-shadow: none;
+    border-radius: 0px 0px 0px 0px;
+    background-color: rgba(30, 30, 46, 0);
+    margin: 5px;
+    transition: box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+/*button:hover {
+    background-color: rgba(49, 50, 68, 0.1);
+}*/
+#lock {
+    background-image: image(url("/home/Zavar/.config/wlogout/icons/lock.png"));
+    background-size: 70%;
+}
+#lock:focus {
+    background-image: image(url("/home/Zavar/.config/wlogout/icons/lock.png"));
+    background-size: 80%;
+}
+
+#logout {
+    background-image: image(url("/home/Zavar/.config/wlogout/icons/logout.png"));
+}
+#logout:focus {
+    background-image: image(url("/home/Zavar/.config/wlogout/icons/logout.png"));
+    background-size: 70%;
+}
+
+#suspend {
+    background-image: image(url("/home/Zavar/.config/wlogout/icons/sleep.png"));
+} 
+#suspend:focus {
+    background-image: image(url("/home/Zavar/.config/wlogout/icons/sleep.png"));
+    background-size: 70%;
+}
+
+#shutdown {
+    background-image: image(url("/home/Zavar/.config/wlogout/icons/power.png"));
+}
+#shutdown:focus {
+    background-image: image(url("/home/Zavar/.config/wlogout/icons/power.png"));
+    background-size: 70%;
+}
+
+#reboot {
+    background-image: image(url("/home/Zavar/.config/wlogout/icons/restart.png"));
+}
+#reboot:focus {
+    background-image: image(url("/home/Zavar/.config/wlogout/icons/restart.png"));
+    background-size: 70%;
+}
